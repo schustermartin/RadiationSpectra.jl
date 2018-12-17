@@ -9,4 +9,5 @@ pyplot(guidefont=myfont, xtickfont=myfont, ytickfont=myfont, legendfont=myfont, 
 p_uncal = plot(h_uncal, st=:step, label=&quot;Uncalibrated spectrum&quot;, c=1, lw=1.2); 
 p_decon = plot(peakpos, st=:vline, c=:red, label=&quot;Peaks&quot;, lw=0.3);
 plot!(h_decon, st=:step, label=&quot;Deconvoluted spectrum&quot;, c=1, lw=1.2); 
-plot(p_uncal, p_decon, size=(800,500), layout=(2, 1)) </code></pre><footer><hr/><a class="previous" href="../../"><span class="direction">Previous</span><span class="title">Home</span></a><a class="next" href="../fitting/"><span class="direction">Next</span><span class="title">Fitting</span></a></footer></article></body></html>
+plot(p_uncal, p_decon, size=(800,500), layout=(2, 1)) 
+savefig(&quot;peak_finding.svg&quot;); nothing # hide</code></pre><p><img src="peak_finding.svg" alt/></p><footer><hr/><a class="previous" href="../../"><span class="direction">Previous</span><span class="title">Home</span></a><a class="next" href="../fitting/"><span class="direction">Next</span><span class="title">Fitting</span></a></footer></article></body></html>
