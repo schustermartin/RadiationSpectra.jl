@@ -1,7 +1,5 @@
 # This file is a part of RadiationSpectra.jl, licensed under the MIT License (MIT).
 
-__precompile__(true)
-
 module RadiationSpectra
 
 using DelimitedFiles
